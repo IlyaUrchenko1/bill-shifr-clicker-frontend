@@ -14,17 +14,4 @@ body {
   background: var(--tg-theme-bg-color);
   color: var(--tg-theme-text-color);
 }
-.container {
-  text-align: center;
-}
 
-img {
-  margin-top: 20px;
-  width: 200px;
-  height: auto;
-  transition: transform 0.2s;
-}
-
-img:hover {
-  transform: scale(1.1);
-}

@@ -1,0 +1,28 @@
+.header {
+    position: relative; /* Убедитесь, что это контейнер для абсолютного позиционирования */
+    width: 100%;
+    height: 100px; /* Высота для шапки */
+}
+
+.info-btn {
+    position: absolute; /* Абсолютное позиционирование для кнопки */
+    top: -120px; /* Отступ сверху */
+    left: -130px; /* Отступ слева */
+}
+
+.top-btn {
+    position: absolute; /* Абсолютное позиционирование для кнопки */
+    top: -120px; /* Отступ сверху */
+    right: -130px; /* Отступ справа */
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+button img {
+    width: 70px;
+    height: auto;
+}
